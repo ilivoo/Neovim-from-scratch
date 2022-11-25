@@ -14,6 +14,7 @@ dashboard.section.header.val = {
 }
 dashboard.section.buttons.val = {
 	dashboard.button("f", "  Find file", ":Telescope find_files <CR>"),
+  -- :w path/fileName 保存文件，可以使用neovim tree 复制路径
 	dashboard.button("e", "  New file", ":ene <BAR> startinsert <CR>"),
 	dashboard.button("p", "  Find project", ":Telescope projects <CR>"),
 	dashboard.button("r", "  Recently used files", ":Telescope oldfiles <CR>"),
@@ -31,9 +32,9 @@ local function footer()
 	return "chrisatmachine.com"
 end
 
-dashboard.section.footer.val = footer()
+-- dashboard.section.footer.val = footer()
 
-dashboard.section.footer.opts.hl = "Type"
+-- dashboard.section.footer.opts.hl = "Type"
 dashboard.section.header.opts.hl = "Include"
 dashboard.section.buttons.opts.hl = "Keyword"
 

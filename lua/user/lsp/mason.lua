@@ -1,12 +1,28 @@
 local servers = {
+  -- https://github.com/williamboman/mason-lspconfig.nvim
 	"sumneko_lua",
 	-- "cssls",
 	-- "html",
 	-- "tsserver",
 	"pyright",
-	-- "bashls",
-	"jsonls",
-	-- "yamlls",
+	"bashls",
+  "jsonls",
+	"yamlls",
+  "clangd",
+  "gopls",
+  "golangci_lint_ls",
+  "jdtls",
+  -- "groovyls",
+  "marksman",
+  "pyright",
+  "cmake",
+  "awk_ls",
+  "dockerls",
+  -- "ltex",
+  "marksman",
+  -- "prosemd_lsp",
+  "sqlls"
+  -- "sqls"
 }
 
 local settings = {

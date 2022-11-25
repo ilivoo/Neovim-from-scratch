@@ -5,6 +5,8 @@ local options = {
   completeopt = { "menuone", "noselect" }, -- mostly just for cmp
   conceallevel = 0,                        -- so that `` is visible in markdown files
   fileencoding = "utf-8",                  -- the encoding written to a file
+  fileencodings = "ucs-bom,utf-8,gb18030,latin1",
+  encoding = "utf-8",
   hlsearch = true,                         -- highlight all matches on previous search pattern
   ignorecase = true,                       -- ignore case in search patterns
   mouse = "a",                             -- allow the mouse to be used in neovim
@@ -48,3 +50,5 @@ vim.opt.iskeyword:append "-"                           -- hyphenated words recog
 vim.opt.formatoptions:remove({ "c", "r", "o" })        -- don't insert the current comment leader automatically for auto-wrapping comments using 'textwidth', hitting <Enter> in insert mode, or hitting 'o' or 'O' in normal mode.
 vim.opt.runtimepath:remove("/usr/share/vim/vimfiles")  -- separate vim plugins from neovim in case vim still in use
 
+vim.g.python3_host_prog = "/home/ilivoofeng/my-env/bin/python3"
+vim.g.loaded_perl_provider = 0
