@@ -18,7 +18,7 @@ null_ls.setup({
 	debug = false,
 	sources = {
     -- all
-    actions.cspell,
+    -- actions.cspell,
     -- git
     actions.gitrebase,
     actions.gitsigns,
@@ -36,7 +36,7 @@ null_ls.setup({
     -- all
     -- diagnostics.misspell,
     diagnostics.codespell,
-    diagnostics.cspell,
+    -- diagnostics.cspell,
     --markdown
     diagnostics.markdownlint,
     -- diagnostics.proselint,
@@ -62,10 +62,10 @@ null_ls.setup({
     -- git
     diagnostics.gitlint,
     -- go
-    diagnostics.golangci_lint,
+    -- diagnostics.golangci_lint,
     diagnostics.staticcheck,
     -- json yaml
-    -- diagnostics.jsonlint,
+    diagnostics.jsonlint,
     diagnostics.yamllint,
     -- docker
     diagnostics.hadolint,
@@ -79,11 +79,11 @@ null_ls.setup({
     formatting.trim_newlines,
     formatting.trim_whitespace,
     -- go
-    formatting.gofmt,
-    formatting.gofumpt,
-    formatting.goimports,
-    formatting.golines,
-    formatting.goimports_reviser,
+    -- formatting.gofmt,
+    -- formatting.gofumpt,
+    -- formatting.goimports,
+    -- formatting.golines,
+    -- formatting.goimports_reviser,
     -- lua
     formatting.stylua,
     -- bash
@@ -96,9 +96,9 @@ null_ls.setup({
     formatting.scalafmt,
     formatting.npm_groovy_lint,
     -- json
-    formatting.fixjson,
+    -- formatting.fixjson,
     formatting.jq,
-    formatting.json_tool,
+    -- formatting.json_tool,
     -- xml
     formatting.xmllint,
     formatting.yamlfmt,
