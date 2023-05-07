@@ -7,10 +7,10 @@ local servers = {
 	"pyright",
 	"bashls",
   -- "jsonls",
-	"yamlls",
+	-- "yamlls",
+  -- "ansiblels",
   "clangd",
   "gopls",
-  -- "golangci_lint_ls",
   -- "jdtls",
   -- "groovyls",
   "marksman",
@@ -19,10 +19,8 @@ local servers = {
   "awk_ls",
   "dockerls",
   -- "ltex",
-  "marksman",
   -- "prosemd_lsp",
-  "sqlls"
-  -- "sqls"
+  "sqls"
 }
 
 local settings = {

@@ -75,9 +75,9 @@ null_ls.setup({
     -- all
     formatting.prettierd,
     formatting.prettier.with({ extra_args = { "--no-semi", "--single-quote", "--jsx-single-quote" } }),
-    formatting.codespell,
-    formatting.trim_newlines,
-    formatting.trim_whitespace,
+    -- formatting.codespell,
+    -- formatting.trim_newlines,
+    -- formatting.trim_whitespace,
     -- go
     -- formatting.gofmt,
     -- formatting.gofumpt,
@@ -116,7 +116,7 @@ null_ls.setup({
     formatting.yapf,
     -- sql
     -- formatting.sqlformat,
-    formatting.sql_formatter,
+    -- formatting.sql_formatter,
     -- formatting.sqlfluff.with({ extra_args = { "--dialect", "mysql" }}),
 
     hovers.dictionary,
